@@ -1,8 +1,23 @@
-/** @type {import('tailwindcss').Config} */
+
+const { Container } = require("postcss");
+
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+
+      Container: {
+        center: true,
+        padding: {
+        DEFAULT: "1rem",
+        sm: "2rem",
+        lg: "4rem",
+        xl: "5rem",
+        "2xl": "6rem",
+
+        },
+      },
   },
-  plugins: [require("tailwindcss-animate")], // remove this if not installed
-};
+},
+  plugins: [],
+}
