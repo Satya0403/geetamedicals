@@ -32,7 +32,7 @@ const Home = () => {
           <div className="container mx-auto px-4 py-12 md:py-24">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               {/* Text Content */}
-              {/* <div className="space-y-6">
+              <div className="space-y-6">
                 <h1 className="text-5xl md:text-6xl font-bold tracking-tight">
                   My Stationery Hub
                 </h1>
@@ -53,16 +53,16 @@ const Home = () => {
                 <button className="bg-[#3843D0] text-white px-8 py-3 rounded-full font-medium hover:bg-[#2d36a8] transition-colors">
                   Get Started
                 </button>
-              </div> */}
+              </div>
 
               {/* Image */}
-              {/* <div className="relative h-[500px] rounded-2xl overflow-hidden">
+              <div className="relative h-[500px] rounded-2xl overflow-hidden">
                 <img
                   src="https://asrsnews.in/wp-content/uploads/2025/02/new-1024x1024-1.webp"
                   alt="Students studying in a grand library with sunlit arched windows"
                   className="w-full h-full object-cover rounded-2xl"
                 />
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
